@@ -1,0 +1,8 @@
+set terminal png
+set output "out.png"
+set xlabel "X"
+set ylabel "Y"
+set grid
+set xrange [1:4]
+set yrange [0:5]
+plot "2.txt" with lines
